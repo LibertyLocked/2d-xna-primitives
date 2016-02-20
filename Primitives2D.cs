@@ -402,7 +402,7 @@ namespace C3.XNA
 			                 null,
 			                 color,
 			                 angle,
-			                 Vector2.Zero,
+			                 new Vector2(0, (float)pixel.Height / 2),
 			                 new Vector2(length, thickness),
 			                 SpriteEffects.None,
 			                 0);
